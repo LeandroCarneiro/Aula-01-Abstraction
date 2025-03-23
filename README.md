@@ -4,9 +4,11 @@ Let's have the craic! :)
 Exercise: Refactoring Java Code with OOP Principles
 
 Objective:
+
 1- Refactor the given Java project to eliminate code duplication using abstract classes. 
 
 Extra:
+
 1- Add 2 new specific properties for each entity.
 
 2- Add 2 new specific function for each entity.
