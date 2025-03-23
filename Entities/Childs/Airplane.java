@@ -1,6 +1,7 @@
 package Entities.Childs;
+import Entities.Interfaces.IFlyer; 
 
-public class Airplane {
+public class Airplane implements IFlyer {
     private String make;
     private String model;
     private int year;
@@ -45,9 +46,10 @@ public class Airplane {
         this.price = price;
     }
 
-    public void fly() {
-        System.out.println(make + " " + model + " is flying.");
+    public String fly(int speed) {
+        return make + " " + model + " is flying at " + speed + " km/h.";
     }
+    
     public void land() {
         System.out.println(make + " " + model + " is landing.");
     }

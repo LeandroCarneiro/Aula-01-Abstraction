@@ -32,7 +32,7 @@ public class Program {
         // Create an Airplane object
         Airplane airplane = new Airplane("Boeing", "747", 2018, 300000000);
         
-        airplane.fly();
+        airplane.fly(900);
         airplane.land();
         airplane.takeOff();
 
