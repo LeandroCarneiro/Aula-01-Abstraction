@@ -1,2 +1,8 @@
 # Aula-01-Abstraction
-This repo is for students to exercise concecpts of POO
+
+Exercise: Refactoring Java Code with OOP Principles
+
+Objective:
+Refactor the given Java project to eliminate code duplication using abstract classes. 
+
+Add 2 new properties and 2 new functionalities specific to each entity.
